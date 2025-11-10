@@ -1,0 +1,6 @@
+pandas
+numpy
+matplotlib
+statsmodels
+pmdarima # if you choose to use auto_arima
+scikit-learn

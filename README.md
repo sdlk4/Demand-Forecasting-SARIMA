@@ -10,28 +10,51 @@ This project builds a statistical time-series forecasting model using Seasonal A
 
 ## Project Structure
 ├── data/
+
 │   └── AirPassengers.csv
+
 │
+
 ├── output_images/
+
 │   ├── Acf_Plot.png
+
 │   ├── Combined_Differenced_Series.png
+
 │   ├── Diagnostics.png
+
 │   ├── Original_Time_Series.png
+
 │   ├── Order_Differenced_Series.png
+
 │   ├── Pacf_Plot.png
+
 │   └── Sarima_Forecast.png
+
 │
+
 ├── src/
+
 │   ├── dataload.py
+
 │   ├── stationarity.py
+
 │   ├── acf_pacf.py
+
 │   ├── sarima.py
+
 │   ├── forecast.py
+
 │   ├── diagnostics.py
+
 │   └── evaluate.py
+
 │
+
 ├── forecast_output.csv
+
 ├── requirements.txt
+
 └── README.md
 
 ## Getting Started
@@ -143,3 +166,4 @@ Contributions are welcome. You can:
 - ACF/PACF guides parameter selection
 - Residual diagnostics verify that the model generalizes well
 - The pipeline is modular and extensible
+
